@@ -1,0 +1,35 @@
+{
+  "chainId": "doraemon_4151796-1",
+  "chainName": "Roller Doraemon",
+  "rpc": "144.202.24.71:26657",
+  "rest": "144.202.24.71:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "DOR",
+      "baseDenom": "uDOR",
+      "decimals": 18,
+      "logo": "/logos/doraemon_4151796-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/doraemon_4151796-1.png",
+  "ibc": {
+    "hubChannel": "channel-9469",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x3f59f4",
+    "rpc": "144.202.24.71:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "Roller Doraemon",
+  "analytics": true,
+  "goldberg": true,
+  "availAddress": "5GpSeUVtSZsW4ZgHBJnD7MG2kZ1UCtBj5GqjKzVR5ndjUuvB"
+}
